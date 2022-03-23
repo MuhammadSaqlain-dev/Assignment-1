@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+a#nav-color {
+  color: #140b0b;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.block {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.l-sidebar {
+  padding: 40px 10px;
+  box-shadow: 5px 10px 5px #888888;
+}
+@media only screen and (max-width: 425px) {
+  .l-sidebar {
+    padding: 40px 80px;
+  }
+}
+
+.side-heading {
+  padding: 15px 40px;
+}
+@media only screen and (max-width: 768px) {
+  .side-heading {
+    padding: 8px 5px;
+  }
+}
+
+.divider {
+  height: 3px;
+  width: 100%;
+  background-color: #c7c7c7;
+  margin: 100px 0 50px 0;
+}
+@media only screen and (max-width: 768px) {
+  .divider {
+    margin: 115px 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .divider {
+    margin: 40px 0;
+  }
+}
+
+.font-bar {
+  padding: 30px 0 15px 0;
+}
+
+.fas {
+  font-size: 28px;
+  padding: 0px 18px;
+}
+@media only screen and (max-width: 768px) {
+  .fas {
+    padding: 0 8px;
+  }
+}
+
+.row {
+  margin: 0;
+}
+
+.r-sidebar {
+  padding: 40px 10px;
+  box-shadow: -5px 10px 5px hsl(0, 0%, 53%);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.r-sidebar h1 {
+  text-transform: uppercase;
+  font-family: "Bungee", cursive;
+  padding: 8px 0;
+}
+
+.form-block {
+  width: 80%;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px hsl(0, 0%, 53%);
+}
+@media only screen and (max-width: 320px) {
+  .form-block {
+    padding: 40px 35px;
+  }
+}
+
+.form-control:focus {
+  border-color: darkgray;
+  box-shadow: none;
+}
+
+.form-block form input {
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 2px;
+  border-radius: 0;
+  transition: none;
+  margin-bottom: 26px;
+  padding-bottom: 2px;
+}
+
+.btn-lg {
+  padding: 0.8rem 45%;
+}
+@media only screen and (max-width: 768px) {
+  .btn-lg {
+    padding: 0.8rem 30%;
+  }
+}
+.button {
+  margin: 30px 0;
+  border: 2.5px solid lightgrey;
+  color: gray;
+  font-weight: 600;
+}
+
+.text {
+  color: grey;
+  font-size: 22px;
+  font-weight: 400;
+}
+.text span {
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+.profile-block1 {
+  text-align: left;
+  font-size: 22px;
+  color: black;
+  line-height: 3rem;
+  /* padding-left: 8%; */
+}
+/* .profile-block2 img {
+  
+} */
+
+.block2 .col div {
+  text-decoration: underline;
+  text-align: left;
+  font-size: 22px;
+  color: black;
+  padding: 50px 0 120px 8%;
+}
